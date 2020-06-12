@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>DYDU Dialog</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./Index.css">
+    <script>let $ = require('jquery');</script>
+    <script>require('popper.js');</script>
+    <script>require('bootstrap');</script>
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';" />
+  </head>
+  <body>
+    <div class="container top-buffer">
+
+      <div class="row form-group">
+        <div class="col-sm-2 text-sm-right">
+          <label for="exampleInputEmail1">Environment</label>
+        </div>
+        <div class="col-sm-10">
+          <select class="form-control">
+            <option>--Select--</option>
+            <option>Development</option>
+            <option>Homologation</option>
+            <option>Production</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="row form-group">
+          <div class="col-sm-2 text-sm-right">
+            <label for="email">Email</label>
+          </div>
+          <div class="col-sm-10">
+            <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email">
+          </div>
+      </div>
+
+      <div class="row form-group">
+        <div class="col-sm-2 text-sm-right">
+          <label for="password">Password</label>
+        </div>
+        <div class="col-sm-10">
+          <input type="password" class="form-control" id="password" placeholder="Password">
+          <small id="emailHelp" class="form-text text-muted">Password based on your selected environment</small>
+        </div>
+      </div>
+
+      <div class="row form-group">
+        <div class="col-sm-2 text-sm-right">
+          <label for="language">Language</label>
+        </div>
+        <div class="col-sm-10 form-group">
+          <select class="form-control">
+            <option>--Select--</option>
+            <option>English</option>
+            <option>Franch</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="row form-group">
+        <div class="col-sm-2 text-sm-right">
+          <label for="botName">Bot</label>
+        </div>
+        <div class="col-sm-10 form-group">
+          <select class="form-control">
+            <option>--Select--</option>
+            <option>Default - 1111-qqeeww-44333-444dsdd</option>
+            <option>Client Bot - dsdaw-1111-3333-dddd-2</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="row form-group">
+        <div class="col-sm-12">
+          <div class="text-right">
+            <button type="button" class="btn btn-outline-info">Calculate Feedback Percentage</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="jumbotron">
+            <div class="container">
+              <h3 class="display-5">Fluid jumbotron</h3>
+                <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </body>
+</html>
